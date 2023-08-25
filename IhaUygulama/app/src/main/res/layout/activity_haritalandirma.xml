@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:map="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+    android:background="@color/mavi"
+android:layout_height="match_parent">
+
+
+    <include
+        android:id="@+id/include_haritalandirma"
+        layout="@layout/toolbar"
+        tools:layout_editor_absoluteX="-93dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="391dp"
+        android:layout_height="449dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        tools:context=".MapsActivity" />
+
+    <Button
+        android:id="@+id/goster_button"
+        android:layout_width="95dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="500dp"
+        android:backgroundTint="@color/black"
+        android:text="GÖSTER"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/havakalitesi_imageView"
+        android:layout_width="218dp"
+        android:layout_height="166dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="560dp"
+        map:srcCompat="@drawable/hava_kalitesi" />
+
+    <ImageView
+        android:id="@+id/harita_logo_imageView"
+        android:layout_width="69dp"
+        android:layout_height="69dp"
+        android:layout_marginLeft="169dp"
+        android:layout_marginTop="610dp"
+        android:layout_marginBottom="60dp"
+        map:srcCompat="@drawable/atmosferlogo" />
+</RelativeLayout>

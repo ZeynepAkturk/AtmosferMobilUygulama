@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mavi"
+    tools:context=".UcusVerileriAnasayfa">
+
+    <Spinner
+        android:id="@+id/ilce_spinner"
+        android:layout_width="68dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="468dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.918" />
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        tools:layout_editor_absoluteX="-35dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <Spinner
+        android:id="@+id/il_spinner"
+        android:layout_width="67dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="496dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.548" />
+
+    <TextView
+        android:id="@+id/sehir_textView"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="Şehir Seçiniz"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.124" />
+
+    <TextView
+        android:id="@+id/ilce_textView"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:text="İlçe Seçiniz"
+        android:textColor="@color/black"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.242" />
+
+    <TextView
+        android:id="@+id/dateTxt"
+        android:layout_width="114dp"
+        android:layout_height="36dp"
+        android:text=""
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.361" />
+
+    <Button
+        android:id="@+id/haritalandirmagoster_button"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
+        android:background="@color/black"
+        android:text="Uçuş Verilerini AL"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.544" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="302dp"
+        android:layout_height="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/atmosferlogo" />
+
+    <Button
+        android:id="@+id/selectDate"
+        android:layout_width="69dp"
+        android:layout_height="45dp"
+
+        android:backgroundTint="@color/mavi"
+        android:text=">"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.352" />
+
+    <TextView
+        android:id="@+id/tarih_textView"
+        android:layout_width="136dp"
+        android:layout_height="35dp"
+        android:text="Tarih Seçiniz"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <TextView
+        android:id="@+id/sehirGoster_textView"
+        android:layout_width="108dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="72dp"
+        android:text="."
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/ilcegoster_textView"
+        android:layout_width="107dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="152dp"
+        android:text="."
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.924"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.008" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

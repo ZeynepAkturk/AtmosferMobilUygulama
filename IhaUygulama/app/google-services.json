@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "349967648472",
+    "project_id": "atmosferveritaban",
+    "storage_bucket": "atmosferveritaban.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349967648472:android:a53ac527e24b23c38e79ad",
+        "android_client_info": {
+          "package_name": "com.example.ihauygulama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349967648472-qiavu53902u6s3cboqdvvrf48u7vcedi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsjWvLzED9pSdjIAGgtKhZUlqyqPuDFuc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349967648472-qiavu53902u6s3cboqdvvrf48u7vcedi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

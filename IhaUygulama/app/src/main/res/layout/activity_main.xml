@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mavi"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/ucusverileri_button"
+        android:layout_width="247dp"
+        android:layout_height="69dp"
+        android:backgroundTint="@color/black"
+        android:text="UÇUŞ VERİLERİ"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <Button
+        android:id="@+id/harita_button"
+        android:layout_width="247dp"
+        android:layout_height="69dp"
+        android:backgroundTint="@color/black"
+        android:text="Haritalandırma"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <TextView
+        android:id="@+id/atmosfer_textView"
+        android:layout_width="333dp"
+        android:layout_height="80dp"
+
+        android:text="ATMOSFER MOBİL"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.195" />
+
+    <ImageView
+        android:id="@+id/logo_imageView"
+        android:layout_width="328dp"
+        android:layout_height="253dp"
+        android:layout_marginTop="396dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/atmosferlogo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

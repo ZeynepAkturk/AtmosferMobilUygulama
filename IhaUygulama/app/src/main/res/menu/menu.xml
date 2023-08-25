@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Anasayfa"
+        android:id="@+id/anasayfa"
+        android:icon="@drawable/ic_baseline_home_24"
+        app:showAsAction="always" />
+    <item
+        android:title="Ucus Verileri"
+        android:id="@+id/ucusverileri"
+        android:icon="@drawable/ic_baseline_airplanemode_active_24"
+        app:showAsAction="always" />
+    <item
+        android:title="Harita"
+        android:id="@+id/harita"
+        android:icon="@drawable/ic_baseline_zoom_out_map_24"
+        app:showAsAction="always" />
+
+</menu>

@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.IhaUygulama" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.IhaUygulama.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorControlActivated">@color/mavi</item>
+        <item name="colorAccent">@color/mavi</item>
+        <item name="android:textColorPrimaryInverse">@color/black</item>
+    </style>
+
+    <style name="Theme.IhaUygulama.AppBarOverlay" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="Theme.IhaUygulama.PopupOverlay" parent="Theme.AppCompat.Light.NoActionBar" />
+</resources>
